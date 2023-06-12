@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&family=Shadows+Into+Light&display=swap");
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+:root {
+  --bg: #0c1019;
+  --grey: #919396;
+  --white: #fdfefe;
+  --blue: #1e90fe;
+  --purple: #9284fc;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg);
+  color: var(--white);
+  font-weight: 100;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  /* border: 3px solid pink; */
+}
+.section {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+.paragraph {
+  color: var(--grey);
+  text-align: center;
+}
+.animated-gradient {
+  font-size: 3rem;
+  background: linear-gradient(
+    to right,
+    #7953cd 20%,
+    #00affa 30%,
+    #0190cd 70%,
+    #764ada 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: textShine 1s ease-in-out infinite alternate;
+}
+@keyframes textShine {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+.heading {
+  font-size: 2rem;
+  text-align: center;
+  background: linear-gradient(
+    141.27deg,
+    #ff904e -4.24%,
+    #ff5982 21.25%,
+    #ec68f4 44.33%,
+    #79e2ff 83.46%
+  );
+  background-size: 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-animation: gradient-data-v-66b40ddc 5s ease infinite;
+  animation: gradient-data-v-66b40ddc 5s ease infinite;
+  -webkit-text-fill-color: transparent;
+}
+
+.shadow__btn {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: none;
+  font-size: 1rem;
+  color: #fff;
+  border-radius: 0.5rem;
+  letter-spacing: 2px;
+  font-weight: 200;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.shadow__btn {
+  background: rgb(0, 140, 255);
+  box-shadow: 0 0 25px rgb(0, 140, 255);
+}
+
+.shadow__btn:hover {
+  box-shadow: 0 0 5px rgb(0, 140, 255), 0 0 25px rgb(0, 140, 255),
+    0 0 50px rgb(0, 140, 255), 0 0 100px rgb(0, 140, 255);
+}
+
+.wrapper {
+  position: relative;
+}
+.custom-shape-divider-bottom-1686567869 {
+  z-index: -100;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1686567869 svg {
+  position: relative;
+  display: block;
+  width: calc(104% + 1.3px);
+  height: 115px;
+}
+
+.custom-shape-divider-bottom-1686567869 .shape-fill {
+  fill: #47668a;
+}
+/* xs */
+@media (min-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+  .heading {
+    font-size: 3rem;
+    text-align: center;
+    background: linear-gradient(
+      141.27deg,
+      #ff904e -4.24%,
+      #ff5982 21.25%,
+      #ec68f4 44.33%,
+      #79e2ff 83.46%
+    );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-animation: gradient-data-v-66b40ddc 5s ease infinite;
+    animation: gradient-data-v-66b40ddc 5s ease infinite;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+.custom-shape-divider-bottom-1686566053 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1686566053 svg {
+  position: relative;
+  display: block;
+  width: calc(115% + 1.3px);
+  height: 124px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1686566053 .shape-fill {
+  fill: #2f3d5d;
+}

@@ -1,0 +1,67 @@
+.hero {
+  text-align: center;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+}
+.social-icons img {
+  height: 2rem;
+  width: 2rem;
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+  .hero h1 {
+    text-align: center;
+    font-size: 6.5rem;
+    line-height: 6rem;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
