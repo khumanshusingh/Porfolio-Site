@@ -37,12 +37,18 @@
   .container {
     max-width: 1024px;
   }
+  .hero {
+    margin-top: -1rem;
+  }
   .hero h1 {
     text-align: center;
     font-size: 6.5rem;
     line-height: 6rem;
   }
-
+  .tagline {
+    margin-top: -2rem;
+    text-align: center;
+  }
   .about {
     display: flex;
     flex-direction: row;
