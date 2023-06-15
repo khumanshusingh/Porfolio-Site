@@ -43,6 +43,10 @@
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
+.links_container {
+  display: flex;
+  justify-content: space-between;
+}
 /* xs */
 @media (min-width: 475px) {
 }

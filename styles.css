@@ -32,7 +32,7 @@ body {
   margin-bottom: 4rem;
 }
 .paragraph {
-  color: var(--grey);
+  color: var(--white);
   text-align: center;
 }
 .animated-gradient {
@@ -49,7 +49,7 @@ body {
   -webkit-text-fill-color: transparent;
   text-fill-color: transparent;
   background-size: 500% auto;
-  animation: textShine 1s ease-in-out infinite alternate;
+  animation: textShine 3s ease-in-out infinite alternate;
 }
 @keyframes textShine {
   0% {
@@ -105,7 +105,7 @@ body {
   position: relative;
 }
 .custom-shape-divider-bottom-1686567869 {
-  z-index: -100;
+  z-index: -50;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -169,7 +169,9 @@ body {
     -webkit-text-fill-color: transparent;
   }
 }
-
+.grey-highlight {
+  color: var(--grey);
+}
 /* xl */
 @media (min-width: 1280px) {
   .container {
@@ -202,5 +204,5 @@ body {
 }
 
 .custom-shape-divider-bottom-1686566053 .shape-fill {
-  fill: #2f3d5d;
+  fill: #9284fc;
 }
