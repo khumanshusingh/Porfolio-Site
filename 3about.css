@@ -14,6 +14,7 @@
   width: 14rem;
   border-radius: 50%;
   border: 2px solid white;
+  box-shadow: 0px 0px 16px 2px;
 }
 #about-tagline {
   font-weight: 300;
