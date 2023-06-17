@@ -34,7 +34,7 @@ body {
   margin-bottom: 4rem;
 }
 .paragraph {
-  color: var(--grey);
+  color: var(--white);
   text-align: center;
 }
 .animated-gradient {
