@@ -85,7 +85,7 @@ body {
   border: none;
   font-size: 1rem;
   color: #fff;
-  border-radius: 0.5rem;
+  border-radius: 0.2rem;
   letter-spacing: 2px;
   font-weight: 200;
   text-transform: uppercase;
@@ -95,12 +95,11 @@ body {
 
 .shadow__btn {
   background: rgb(0, 140, 255);
-  box-shadow: 0 0 25px rgb(0, 140, 255);
+  box-shadow: 0 0 2px rgb(0, 140, 255);
 }
 
 .shadow__btn:hover {
-  box-shadow: 0 0 5px rgb(0, 140, 255), 0 0 25px rgb(0, 140, 255),
-    0 0 50px rgb(0, 140, 255), 0 0 100px rgb(0, 140, 255);
+  box-shadow: 0 0 20px rgb(0, 140, 255);
 }
 
 .wrapper {
